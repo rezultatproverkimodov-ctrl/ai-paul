@@ -1,0 +1,25 @@
+{
+  "name": "ai-paul",
+  "version": "1.0.0",
+  "description": "Minecraft bot with Forge support",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@xmcl/mod-parser": "^3.4.2",
+    "dotenv": "^16.3.1",
+    "minecraft-data": "^3.46.0",
+    "minecraft-protocol": "^1.44.0",
+    "minecraft-protocol-forge": "^1.0.0",
+    "mineflayer": "^4.14.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-collectblock": "^1.4.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2",
+    "vec3": "^0.1.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
